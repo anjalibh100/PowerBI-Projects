@@ -9,3 +9,6 @@ Project KPI's for:
       Created Power BI dashboard to generate insights into sales data
       Top 5 countries by maximum/minimum sales, total sales, and top 10 categories by maximum sales. 
 3. Healthcare Clinical Dashboard: Built PowerBI dashboard to analyze patient data based on admission type, diagnosis, gender, and first care unit.
+
+
+Link to my Story on Medium => https://medium.com/@anjali.bhatnagar.2/build-data-model-with-power-bi-bed493622ed8
