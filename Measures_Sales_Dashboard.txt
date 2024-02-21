@@ -1,0 +1,91 @@
+Measures Created : (Sales Tableau Dashboard)
+1. Min Max Sales
+IF SUM([Total CY Sales]) = WINDOW_MAX(SUM([Total CY Sales]))
+THEN SUM([Total CY Sales])
+ELSEIF 
+SUM([Total CY Sales]) = WINDOW_MIN(SUM([Total CY Sales]))
+THEN SUM([Total CY Sales])
+ELSE NULL
+END
+
+2. Min Max Qty
+IF SUM([Total CY Qty]) = WINDOW_MAX(SUM([Total CY Qty]))
+THEN SUM([Total CY Qty])
+ELSEIF 
+SUM([Total CY Qty]) = WINDOW_MIN(SUM([Total CY Qty]))
+THEN SUM([Total CY Qty])
+ELSE NULL
+END
+
+3. Min Max Profit
+IF SUM([Total CY Profit]) = WINDOW_MAX(SUM([Total CY Profit]))
+THEN SUM([Total CY Profit])
+ELSEIF 
+SUM([Total CY Profit]) = WINDOW_MIN(SUM([Total CY Profit]))
+THEN SUM([Total CY Profit])
+ELSE NULL
+END
+
+4.Total CY Sales
+IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))}
+ THEN [Sales] 
+END
+
+5. Total PY Sales
+IF  YEAR([Order Date]) = {MAX(YEAR([Order Date]) - 1)}
+THEN [Sales] END
+
+6. Total CY profit
+IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))}
+ THEN [Profit] 
+END
+
+7. Total PY Profit
+IF  YEAR([Order Date]) = {MAX(YEAR([Order Date]) - 1)}
+THEN [Profit] END
+
+8. Total CY Qty
+IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))}
+ THEN [Quantity]
+END
+
+9. Total PY Qty
+IF  YEAR([Order Date]) = {MAX(YEAR([Order Date]) - 1)}
+THEN [Quantity] 
+END
+
+10.Avg Sales Overall
+{FIXED:AVG(IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} 
+THEN [Total CY Sales] END)}
+
+11.Avg Profit Overall
+{FIXED:AVG(IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} 
+THEN [Total CY Profit] END)}
+
+12.Avg Profit State wise
+{FIXED[State/Province]:AVG([Total CY Profit])}
+
+13. Dynamic Measure
+CASE [Select Measure]
+WHEN 'Total CY Sales' THEN [Total CY Sales]
+WHEN 'Total CY Profit' THEN [Total CY Profit]
+WHEN 'Total CY Qty' THEN [Total CY Qty]
+END
+
+14. YOY Profit
+(SUM([Total CY Profit]) - SUM([Total PY Profit]))/(SUM([Total PY Profit]))
+
+15. YOY Sales
+(SUM([Total CY Sales]) - SUM([Total PY Sales]))/(SUM([Total PY Sales]))
+
+16. YOY Qty
+(SUM([Total CY Qty]) - SUM([Total PY Qty]))/(SUM([Total PY Qty]))
+
+17. YOY Sales indicator
+IF [YOY Sales] > 0 THEN "↑" ELSE "↓" END
+
+18. YOY Profit indicator
+IF [YOY Profit] > 0 THEN "↑" ELSE "↓" END
+
+19. YOY Qty indicator
+IF [YOY Qty] > 0 THEN "↑" ELSE "↓" END
