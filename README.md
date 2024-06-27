@@ -10,4 +10,4 @@ Project KPI's for:
       Top 5 countries by maximum/minimum sales, total sales, and top 10 categories by maximum sales. 
 3. Healthcare Clinical Dashboard: Built PowerBI dashboard to analyze patient data based on admission type, diagnosis, gender, and first care unit.
 
-Medium => https://medium.com/@anjali.bhatnagar.2/build-data-model-with-power-bi-bed493622ed8
+
