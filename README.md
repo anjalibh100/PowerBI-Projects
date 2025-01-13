@@ -10,7 +10,7 @@ Project KPI's for:
       Created Power BI dashboard to generate insights into sales data
       Top 5 countries by maximum/minimum sales, total sales, and top 10 categories by maximum sales.
    UrL => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Sales%20Dashboard-2.pdf  &
-   Url => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Sales%20Dashboard.pdf
+          https://github.com/anjalibh100/PowerBI-Projects/blob/main/Sales%20Dashboard.pdf
 4. Healthcare Clinical Dashboard: Built PowerBI dashboard to analyze patient data based on admission type, diagnosis, gender, and first care unit.
    Url => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Clinical%20Data%20Dashboard.pdf
 
