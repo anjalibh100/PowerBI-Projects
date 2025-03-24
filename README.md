@@ -42,14 +42,15 @@ The Sales Analysis Dashboard allowed users to quickly assess sales performance a
 The Healthcare Clinical Dashboard facilitated in-depth analysis of patient data, aiding healthcare professionals in understanding patient demographics and care patterns.
 
 URL links to the reports:
+--------------------------
 
-Medicare Status Report 
+Medicare Status Report => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Medicare%20Status%20Report.pdf
 
-Sales Dashboard-2
+Sales Dashboard-2 => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Sales%20Dashboard-2.pdf
 
-Sales Dashboard
+Sales Dashboard => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Sales%20Dashboard.pdf
 
-Clinical Data Dashboard
+Clinical Data Dashboard => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Clinical%20Data%20Dashboard.pdf
 
 
 
