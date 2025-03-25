@@ -46,11 +46,9 @@ URL links to the reports:
 
 Medicare Status Report => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Medicare%20Status%20Report.pdf
 
-Sales Dashboard-2 => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Sales%20Dashboard-2.pdf
+Sales Dashboard => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Sales%20Dashboard-2.pdf
 
-Sales Dashboard => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Sales%20Dashboard.pdf
-
-Clinical Data Dashboard => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Clinical%20Data%20Dashboard.pdf
+Healthcare Data Dashboard => https://github.com/anjalibh100/PowerBI-Projects/blob/main/Clinical%20Data%20Dashboard.pdf
 
 
 
