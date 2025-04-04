@@ -1,5 +1,5 @@
 Situation:
-You were tasked with creating various Power BI dashboards to analyze and provide insights into key data metrics across different domains, including Medicare status, sales analysis, and healthcare clinical data.
+You were tasked with creating various Power BI dashboards based on the KPI's to analyze and provide insights into key data metrics across different domains, including Medicare status, sales analysis, and healthcare clinical data.
 
 Task:
 
